@@ -1,5 +1,6 @@
 /* font-family: 'Roboto', sans-serif; */
 html {
+  box-sizing: border-box;
   height: 100%;
 }
 
@@ -23,9 +24,45 @@ h3 {
   text-indent: 20px;
 }
 
+section {
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
 .box {
-  height: 75px;
-  width: 75px;
+  background-color: rgba(225, 225, 225, .9);
+  height: 400px;
+  width: 500px;
+}
+
+.red {
+  color: #ee5253;
+}
+
+img {
+  width: 30%;
+}
+
+.meal-selection {
+  /* display: flex;
+  flex-direction: column; */
+}
+
+h2 {
+  text-indent: 20px;
+  padding-top: 30px;
+}
+
+form {
+  /* text-indent: 20px; */
+  margin-left: 20px;
+}
+
+.meal-display {
+  display: flex;
+  justify-content: center;
 }
 
 /* COLORS
