@@ -9,29 +9,35 @@
     <header>
       <h3>What's for Dinner?</h3>
     </header>
-      <section>
-        <article class="box meal-selection">
+    <section>
+      <article class="box meal-selection">
+        <form>
           <h2>What are you looking for?<span class="red">*</span></h2>
-          <form>
-            <input type="radio" id="side" name="selection" value="side">
-            <label for="side">Side</label>
-            <br>
-            <input type="radio" id="main dish" name="selection" value="main dish">
-            <label for="main dish">Main Dish</label>
-            <br>
-            <input type="radio" id="dessert" name="selection" value="dessert">
-            <label for="dessert">Dessert</label>
-            <br>
-            <input type="radio" id="Entire Meal" name="selection" value="entire meal">
-            <label for="entire meal">Entire Meal</label>
-            <br>
-          </form>
-            <button>LET'S COOK!</button>
-        </article>
-        <article class="box meal-display">
-          <img src='./assets/cookpot.svg' alt="cookpot icon"/>
-        </article>
-      </section>
+          <ul>
+            <li>
+              <input type="radio" id="side" name="selection" value="side">
+              <label for="side">Side</label>
+            </li>
+            <li>
+              <input type="radio" id="main dish" name="selection" value="main dish">
+              <label for="main dish">Main Dish</label>
+            </li>
+            <li>
+              <input type="radio" id="dessert" name="selection" value="dessert">
+              <label for="dessert">Dessert</label>
+            </li>
+            <li>
+              <input type="radio" id="Entire Meal" name="selection" value="entire meal">
+              <label for="entire meal">Entire Meal</label>
+            </li>
+          </ul>
+          <button>LET'S COOK!</button>
+        </form>
+      </article>
+      <article class="box meal-display">
+        <img src='./assets/cookpot.svg' alt="cookpot icon"/>
+      </article>
+    </section>
     <script type="text/javascript" src="main.js"></script>
   </body>
 </html>

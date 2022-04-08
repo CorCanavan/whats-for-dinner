@@ -7,7 +7,6 @@ html {
 body {
   background-image: url('./assets/burger-friends.jpg');
   height: 100%;
-  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   font-family: 'Roboto', sans-serif;
@@ -17,11 +16,17 @@ body {
 
 header {
   background-color: #0fb9b1;
-  padding: 1px;
+  height: 8%;
+  display: flex;
+  align-items: center;
+}
+
+h2 {
+  font-size: xx-large;
 }
 
 h3 {
-  text-indent: 20px;
+  margin-left: 2%;
 }
 
 section {
@@ -31,10 +36,19 @@ section {
   margin-top: 50px;
 }
 
+form {
+  margin: 85px 0px 0px 30px;
+}
+
+li {
+  font-size: larger;
+  margin-bottom: 3%;
+}
+
 .box {
   background-color: rgba(225, 225, 225, .9);
-  height: 400px;
-  width: 500px;
+  height: 415px;
+  width: 540px;
 }
 
 .red {
@@ -45,35 +59,23 @@ img {
   width: 30%;
 }
 
-.meal-selection {
-}
-
-h2 {
-  text-indent: 20px;
-  padding-top: 30px;
-}
-
-form {
-  /* text-indent: 20px; */
-  margin-left: 20px;
-}
-
 .meal-display {
   display: flex;
   justify-content: center;
 }
 
-/* .button {
-  display: flex;
-  flex-direction: row;
-} */
-
 button {
   background-color: #0fb9b1;
-  width: 175px;
-  height: 30px;
+  width: 225px;
+  height: 40px;
   border: none;
   border-radius: 5px;
+}
+
+ul {
+  list-style: none;
+  margin-left: 0px;
+  padding-left: 0px;
 }
 
 /* COLORS
