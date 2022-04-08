@@ -46,8 +46,6 @@ img {
 }
 
 .meal-selection {
-  /* display: flex;
-  flex-direction: column; */
 }
 
 h2 {
@@ -63,6 +61,19 @@ form {
 .meal-display {
   display: flex;
   justify-content: center;
+}
+
+/* .button {
+  display: flex;
+  flex-direction: row;
+} */
+
+button {
+  background-color: #0fb9b1;
+  width: 175px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
 }
 
 /* COLORS
