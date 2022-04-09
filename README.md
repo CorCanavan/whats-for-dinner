@@ -1,23 +1,58 @@
 # What's for Dinner?
 
-## Overview
+## Table of Contents
+  - [Introduction](#introduction)
+  - [Technologies](#technologies)
+  - [Features](#features)
+  - [Illustrations](#illustrations)
+  - [GitHub Link](#github-link)
+  - [Possible Future Extensions](#possible-future-extensions)
+  - [Set Up](#set-up)
+  - [Sources](#sources)
+  - [Contributors](#contributors)
+  - [Lessons Learned](#lessons-learned)
+  - [Project Specs](#project-specs)
 
-What's for dinner? The ultimate question. You will be building an app that helps users choose a recipe and put together meals. 
+## Introduction
+What's for dinner? The ultimate question. This app helps users choose a recipe, whether it's for a side, main dish or dessert, as well as put together entire meals.
 
-This Solo Challenge gives students and instructors the opportunity to get a pulse on where you are with the foundational concepts of Module 1 curriculum. Students should use this as an opportunity to challenge themselves and work completely independently. Google can (and probably should!) be used, but any other code base should not be referenced. Instructors will be able to use your work, both completion of functionality and code quality, to determine where you stand and if you are behind for this point in the module, provide supports to intervene.
+## Technologies
+- Javascript
+- HTML
+- CSS
 
-The spec for this project can be found [here](https://frontend.turing.io/projects/module-1/dinner.html). 
+## Features
+- A user is able to select a dish option from the categories of: "Side", "Main Dish", or "Dessert", and then click the "Let's Cook!" button to populate a random dish from the list of possible dishes for that selected category.
+- A user is able to select the dish option "Entire Meal" and click the "Let's Cook" button to populate an entire meal which includes a side, main and dessert option from the list of possible dishes for all categories.
 
-## Learning Goals
+## Illustrations
 
-- Gain experience building an application that utilizes HTML, CSS and JavaScript
-- Write HTML and CSS to match a provided comp
-- Understand how to listen to and respond to user events
-- Individualize your programming skill set
+## GitHub Link
+Visit my forked repo link [here](https://github.com/CorCanavan/whats-for-dinner)
 
-## Setup
+## Possible Future Extensions
+- Add functionality to the "Clear" button to allow users to clear a recipe after it has populated.
+- Create functionality on the "Add a Recipe" button, which will display a form at the bottom of the page for the user to add in a new recipe of their choice.
+- Create a "Favorite" button to appear when a recipe populates; add functionality for users to be able to save recipes to a separate saved recipes page.
+- Users can then access these saved recipes by clicking on a "View Favorites" button that brings them to the saved recipes page.
 
-- Fork this project to your own Github account
-- Clone the repository to your local machine
-- `cd` into the project
-- Read this README thoroughly, then begin working!
+## Set Up
+
+  1. Fork this repo  
+  2. Clone the repo to your local machine
+  3. View the project in the browser by running `open index.html` in your terminal
+
+## Sources
+- [CSS Tricks](https://css-tricks.com/)
+- [MDN](http://developer.mozilla.org/en-US/)
+- [W3Schools](https://www.w3schools.com/)
+- [Stack Overflow](https://stackoverflow.com/)
+
+## Contributor
+- [Corinne Canavan](https://github.com/CorCanavan)
+
+## Lessons Learned
+- There is SO MUCH that goes into bringing a page to life! This project was really illuminating when it came to what goes into all the moving pieces between HTML, CSS, and JavaScript, as well as the importance of breaking it down by section. Writing HTML and CSS to match a provided comp is A LOT of trial and error! I learned the value of using Dev Tools to "test out" different CSS properties on HTML elements before actually applying them in the CSS file in order to get a better idea of which direction to go in to get elements to display the way I want.
+
+## Project Spec
+- The spec for this project can be found [here](https://frontend.turing.io/projects/module-1/dinner.html).
