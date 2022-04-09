@@ -1,4 +1,5 @@
 # What's for Dinner?
+Too hangry to decide? This app has got you covered!
 
 ## Table of Contents
   - [Introduction](#introduction)
@@ -9,12 +10,12 @@
   - [Possible Future Extensions](#possible-future-extensions)
   - [Set Up](#set-up)
   - [Sources](#sources)
-  - [Contributors](#contributors)
+  - [Contributor](#contributor)
   - [Lessons Learned](#lessons-learned)
   - [Project Specs](#project-specs)
 
 ## Introduction
-What's for dinner? The ultimate question. This app helps users choose a recipe, whether it's for a side, main dish or dessert, as well as put together entire meals.
+What's for dinner? The ultimate question. This app helps users choose a recipe, whether it's for a side, main dish, or dessert, as well as put together entire meals.
 
 ## Technologies
 - Javascript
@@ -23,7 +24,7 @@ What's for dinner? The ultimate question. This app helps users choose a recipe, 
 
 ## Features
 - A user is able to select a dish option from the categories of: "Side", "Main Dish", or "Dessert", and then click the "Let's Cook!" button to populate a random dish from the list of possible dishes for that selected category.
-- A user is able to select the dish option "Entire Meal" and click the "Let's Cook" button to populate an entire meal which includes a side, main and dessert option from the list of possible dishes for all categories.
+- A user is able to select the dish option "Entire Meal" and click the "Let's Cook" button to populate an entire meal which includes a side, main, and dessert option from the list of possible dishes for all categories.
 
 ## Illustrations
 - Before user has selected a dish option:
