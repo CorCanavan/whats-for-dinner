@@ -63,5 +63,5 @@ Visit my forked repo link [here](https://github.com/CorCanavan/whats-for-dinner)
 ## Lessons Learned
 - There is SO MUCH that goes into bringing a page to life! This project was really illuminating when it came to what goes into all the moving pieces between HTML, CSS, and JavaScript, as well as the importance of breaking down the steps to building a page. Writing HTML and CSS to match a provided comp is A LOT of trial and error! I learned the value of using Chrome Dev Tools to "test out" different CSS properties on HTML elements. This allowed me to get a better idea of which direction to go in to get elements to display the way I want.
 
-## Project Spec
-- The spec for this project can be found [here](https://frontend.turing.io/projects/module-1/dinner.html).
+## Project Specs
+- The spec for this project can be found [here](https://frontend.turing.edu/projects/module-1/dinner.html).
