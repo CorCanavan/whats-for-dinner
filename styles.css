@@ -70,6 +70,22 @@ img {
 .meal-display {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+div {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: xx-large;
+  margin: 0px 30px 0px 30px;
+  text-align: center;
 }
 
 button {
@@ -86,6 +102,18 @@ ul {
   padding-left: 0px;
 }
 
+.clear {
+  width: 15%;
+  background-color: #95a5a6;
+  color: white;
+}
+
+footer {
+  height: 90px;
+  width: 95%;
+  display: flex;
+  justify-content: end;
+}
 /* COLORS
 teal - #0fb9b1;
 frosted white - rgba(225, 225, 225, .9);
