@@ -26,7 +26,7 @@ What's for dinner? The ultimate question. This app helps users choose a recipe, 
 - A user is able to select the dish option "Entire Meal" and click the "Let's Cook" button to populate an entire meal which includes a side, main and dessert option from the list of possible dishes for all categories.
 
 ## Illustrations
-- Before User has selected a dish option:
+- Before user has selected a dish option:
 <img width="1440" alt="Before_Selection" src="https://user-images.githubusercontent.com/97919748/162592845-adf8f86b-e1f6-4d61-9ddd-3a4fe7de0c2b.png">
 
 - After user has selected the "Side" dish option and clicked the "Let's Cook" button:
@@ -60,7 +60,7 @@ Visit my forked repo link [here](https://github.com/CorCanavan/whats-for-dinner)
 - [Corinne Canavan](https://github.com/CorCanavan)
 
 ## Lessons Learned
-- There is SO MUCH that goes into bringing a page to life! This project was really illuminating when it came to what goes into all the moving pieces between HTML, CSS, and JavaScript, as well as the importance of breaking it down by section. Writing HTML and CSS to match a provided comp is A LOT of trial and error! I learned the value of using Dev Tools to "test out" different CSS properties on HTML elements before actually applying them in the CSS file in order to get a better idea of which direction to go in to get elements to display the way I want.
+- There is SO MUCH that goes into bringing a page to life! This project was really illuminating when it came to what goes into all the moving pieces between HTML, CSS, and JavaScript, as well as the importance of breaking down the steps to building a page. Writing HTML and CSS to match a provided comp is A LOT of trial and error! I learned the value of using Chrome Dev Tools to "test out" different CSS properties on HTML elements. This allowed me to get a better idea of which direction to go in to get elements to display the way I want.
 
 ## Project Spec
 - The spec for this project can be found [here](https://frontend.turing.io/projects/module-1/dinner.html).
