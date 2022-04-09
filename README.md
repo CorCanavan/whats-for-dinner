@@ -26,6 +26,14 @@ What's for dinner? The ultimate question. This app helps users choose a recipe, 
 - A user is able to select the dish option "Entire Meal" and click the "Let's Cook" button to populate an entire meal which includes a side, main and dessert option from the list of possible dishes for all categories.
 
 ## Illustrations
+- Before User has selected a dish option:
+<img width="1440" alt="Before_Selection" src="https://user-images.githubusercontent.com/97919748/162592845-adf8f86b-e1f6-4d61-9ddd-3a4fe7de0c2b.png">
+
+- After user has selected the "Side" dish option and clicked the "Let's Cook" button:
+<img width="1440" alt="Side_Selection" src="https://user-images.githubusercontent.com/97919748/162592869-1dbd86f0-7b0c-43ae-ae75-8d15da7ae374.png">
+
+- After user has selected the "Entire Meal" dish option and clicked the "Let's Cook" button:
+<img width="1440" alt="Entire_Meal_Selection" src="https://user-images.githubusercontent.com/97919748/162592901-8e6b4216-8d89-4c21-8c83-920ce8689221.png">
 
 ## GitHub Link
 Visit my forked repo link [here](https://github.com/CorCanavan/whats-for-dinner)
