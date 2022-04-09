@@ -1,3 +1,8 @@
+// Query Selectors:
+var displayBox = document.querySelector(".meal-display");
+var radioButtons = document.querySelectorAll("input");
+var letsCookButton = document.querySelector(".meal-selection-button");
+
 // Data:
 var sides = [
   "Miso Glazed Carrots",
@@ -11,7 +16,6 @@ var sides = [
   "Garlic Butter Mushrooms",
   "Hush Puppies",
 ];
-
 var mains = [
   "Spaghetti and Meatballs",
   "Pineapple Chicken",
@@ -27,7 +31,6 @@ var mains = [
   "Sheet Pan Fajitas",
   "Margarita Pizza",
 ];
-
 var desserts = [
   "Apple Pie",
   "Lemon Meringue Pie",
@@ -48,14 +51,7 @@ var desserts = [
   "Croissants",
   "Eclairs",
 ];
-
 var selectedItem;
-
-// Query Selectors:
-var displayBox = document.querySelector(".meal-display");
-var radioButtons = document.querySelectorAll("input");
-var letsCookButton = document.querySelector(".meal-selection-button");
-var clearButton = document.querySelector(".clear");
 
 // Event Listeners:
 for (var i = 0; i < radioButtons.length; i++) {
@@ -63,7 +59,6 @@ for (var i = 0; i < radioButtons.length; i++) {
 }
 
 letsCookButton.addEventListener("click", displayMeal)
-clearButton.addEventListener("click", clearMeal)
 
 // Functions and Event Handlers:
 function selectMeal(e) {
@@ -90,12 +85,6 @@ function displayMeal(e) {
                             <button class="clear">CLEAR</button>
                           </footer>`
 }
-
-function clearMeal() {
-  selectedItem = " ";
-  displayBox.innerHTML = '';
-}
-
 
 function getRandomIndex(array) {
   return Math.floor(Math.random() * array.length);
